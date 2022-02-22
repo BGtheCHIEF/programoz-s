@@ -1,6 +1,10 @@
 body {
   background-color: rgb(111, 111, 111);
   background-size: cover;
+  background-image: url(back.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
 }
 
 p {
@@ -13,6 +17,9 @@ p {
   margin-top: 40px;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 30px;
+  width: 80%;
+  padding: 30px;
+  margin: auto;
 }
 
 a {
@@ -34,7 +41,59 @@ li {
   list-style-type: square;
 }
 
-table {
+table,th,td {
   width: 80%;
   margin: auto;
+  border-collapse: collapse;
+  border: 1px solid grey;
+  text-align: center;
+
+}
+
+td
+{
+  padding: 5px;
+}
+
+th
+{
+  background-color: #087AC8;
+  color: white;
+}
+
+span
+{
+  color: #087AC8;
+}
+
+#BB1B
+{
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+p
+{
+  text-align: justify;
+  line-height: 120%;
+  text-indent: 0;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: red;
+}
+
+.chiefsosa
+{
+  margin: auto;
+  text-align: center;
 }
